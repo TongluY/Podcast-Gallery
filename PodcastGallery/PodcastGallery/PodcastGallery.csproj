@@ -14,4 +14,10 @@
     <PackageReference Include="Microsoft.Identity.Web.UI" Version="1.25.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Remove="Images\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Images\" />
+  </ItemGroup>
 </Project>
