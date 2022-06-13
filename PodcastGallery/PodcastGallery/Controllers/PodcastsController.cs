@@ -7,8 +7,11 @@ using PodcastGallery.Models;
 
 namespace PodcastGallery.Controllers
 {
+
     public class PodcastsController : Controller
     {
+        private PodcastRepository;
+
         public ActionResult Detail()
         {
             var podcast = new Podcast()

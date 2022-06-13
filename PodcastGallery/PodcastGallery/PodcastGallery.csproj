@@ -16,8 +16,10 @@
 
   <ItemGroup>
     <None Remove="Images\" />
+    <None Remove="Data\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Images\" />
+    <Folder Include="Data\" />
   </ItemGroup>
 </Project>
